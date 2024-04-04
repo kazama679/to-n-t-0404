@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let b = prompt("nhập");
+        let c = true;
+        let a = [1, 3, "Quang"];
+        for (let i = 0; i < a.length; i++) {
+            if(a[i] == b){
+                console.log(a[i]);
+                c = false;
+            }
+        }
+        if (c) {
+            console.log("ko có");
+        }
+    </script>
+</body>
+</html>
